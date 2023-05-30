@@ -1,0 +1,257 @@
+                                    HTMl Attributes
+                                =======================
+==> Attributes provides additional information about the content of an element.
+
+==> they are appear on the opening tag of the element and are made up of two parts. name and value separated by 
+    equal signs.
+
+==> the html element are text documents.
+
+Headings :
+===========
+
+==> <h1>  is used to main heading of the web page .
+
+==> <h2>  is the sub heading of the web page. 
+
+==> browser display the different sizes of the headings.
+
+Paragraphs:
+===========
+==> to create a Paragraph, surround the words that make up the Paragraph with an opening tag and closing tag.
+
+==> by default, a browser wil shows each Paragraph in a new line with some space between it and any subsequent Paragraphs.
+
+Bold and italic:
+================
+  
+===> the Bold tag starts with " <b> " .
+
+===> by enclosing the words in the tags <b> the </b> we can make character appear bold.
+
+         syntax:   <html>
+                       <body>
+                           <b> the </b>  
+                       </body>
+                   </html>
+
+Italic:
+=======
+
+==> the Italic tag starts with <i>.
+
+==> by enclosing word in the tags <i> and </i> we make character appear italic.
+   
+       syntax: <html>
+                       <body>
+                           <i> the </i>  
+                       </body>
+                   </html>
+
+superscript:
+============
+   
+===> The element starts with <sup> .
+
+===> the element is used to contain that should be superscript such as the suffixes of dates or mathematical
+
+     concepts like rising a number to a power such as 2 power 2 .
+
+        syntax:
+                      <html>
+                       <body>
+                           <p> the date is 4 <sup> th </sup></p>
+                           <p> e= mc <sup> 2 </sup></p>
+                       </body>
+                   </html>
+
+subscript :
+===========
+ 
+ ===> the element starts with <sub>.
+
+ ===> the <sub> element is used to contain character that should be subscript. it is commonly used with foot
+
+       nots and chemical formulas such as h2o.
+
+
+       syntax:
+
+                    <html>
+                       <body>
+                           <p> the date is 4 <sup> th </sup></p>
+                           <p> e= mc <sup> 2 </sup></p>
+                           <p> the amount of CO <sub> 2 </sub> in the atmosphere</p>
+                       </body>
+                   </html>
+
+white space:
+============
+
+===> when a browser come across  tow or more space next to each other, it only display one space.
+
+===> similarly if it comes across a line break, it treats that as a single space too. that is kow as white 
+
+     space.
+
+     syntax:
+          
+                      <html>
+                       <body>
+                           <p> when a browser come across  tow or more space next to each other </p>
+                           <p>when a browser    come across  tow or more space next to each other</p>
+                           <p>when a browser come across  tow or more space 
+
+                                                   next to each other</p>
+                       </body>
+                   </html>
+
+Line breaks :
+=============
+
+===> the element starts with <br/>.
+
+===> if you want to add a line break middle of the Paragraph you need to add break tag.
+
+         syntax:
+                    
+                    <html>
+                       <body>
+                           <p> when a browser come across  tow or more space next to each other </p>
+                           <p>when a browser <br/> come across  tow or more space next to each other</p>
+                           <p>when a browser come across <br/> tow or more space next to each other</p>
+                       </body>
+                   </html>
+
+Horizontal line :
+=================
+
+===> the element starts with <hr/>.
+
+===> to create a break between themes -- such as change of topic in a book or new scene in a play -- you 
+
+     can add a Horizontal rule between sections using the <hr/>.
+
+          syntax:
+
+                    <html>
+                       <body>
+                           <p> when a browser come across  tow or more space next to each other </p> 
+                                <hr/>
+                           <p>when a browser <br/> come across  tow or more space next to each other</p>
+                                 <hr/>
+                           <p>when a browser come across <br/> tow or more space next to each other</p>
+                       </body>
+                   </html>
+
+Strong:
+=======
+
+==> the use of the <strong> element indicates that its content has strong importance.
+ 
+==> by default the browser will show the content of a <strong> element in bold.
+
+         syntax: 
+                 <html>
+                       <body>
+                           <p> <strong> BEWARE: </strong> pick pockets operate in this area </p>
+                       </body>
+                   </html>
+
+Emphasis:
+=========
+
+==>  the <em> element indicates Emphasis that subtly changes the meaning of the sentence.
+
+==> by default the browser will show the contents of an <em> element in italic.
+
+     syntax:
+                  <html>
+                       <body>
+                           <p> when a browser come across  <em> tow or more </em> space next to each other </p>
+                           <p>when a browser <em> come across </em> tow or more space next to each other</p>
+                           <p>when a browser come across tow or more space next to <em> each other </em></p>
+                       </body>
+                   </html>
+
+Abbreviations :
+===============
+
+==> the <abbr> tag is used for full form of the term .
+
+     syntax :        
+                         <p> <abbr title = "professor"> prof</abbr> Ash is a theoretical scientist.</p> 
+
+Acronyms :
+==========
+
+===> the <Acronyms> is used for full of the titles .
+
+         syntax :
+                     <p> hte title of the NASA: <Acronyms title ="SMALL INTERNET MODULE">SIM</Acronyms></p>
+            
+Citations :
+===========
+
+==> when you are referencing a pice of work such as book, film or research paper, the <cite> element can be 
+    
+    be used to indicate where the Citations is from .
+
+==> by default the browser will shows italic .
+
+    syntax: 
+             
+              <p>
+                  <cite> A brief history of time </cite>
+                    by stephen hawking has sold over ten millions of copies
+              </p>
+
+Definitions :
+=============
+
+==> the element starts with <dfn>.
+
+==> the very first time you explain some new terminology in document, it is know as the Defining instance
+
+    of it.
+
+==> the <dfn> element is used to indicate the Defining instance of new term.
+
+     syntax:
+                    <p>  A 
+                         <dfn>
+                           block hole 
+                         </dfn>
+                        is a region of space from which nothing, not even light.
+                    </p>
+         
+Address:
+=========
+
+==> the element starts with <address> tag.
+
+==> the address element has quite a specific use to contain contact details and address of the person.
+
+syntax:
+  
+             <address>
+                <p> <a href = "url"> ashok1668.v@gmail.com </a></p>
+                <p> 5a maireana street, maribyrnong, vic : 3032</p>
+             </address>
+Delete & Insert :
+================
+
+==> the tag starts with <del>.
+
+==> the delete element can show the text that has been deleted form the document.
+
+Insert :
+========
+
+===> if you want to insert in to the document we need to add <ins>.
+
+    syntax:
+
+          <p> this area surround pick pocketers are there <del>so </del> 
+                   <ins> careful your things in your hand.</ins>
+          </p>
