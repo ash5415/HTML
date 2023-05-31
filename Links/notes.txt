@@ -1,0 +1,42 @@
+                                      Links
+                                =================
+
+==> creating links between the pages.
+
+==> link to other sites.
+
+==> Email links.
+
+==> links are defining feature of the webpage because they allow you to move from one webpage to another 
+
+    webpage.
+==> links from one website to another website.
+
+==> links for one page to another page to the same website.
+
+==> links from one part of the webpage to  another part of the same page.
+
+==> links that open a new browser window.
+
+links :
+-------
+
+==> links are creating with <a> element. users can click on anything between the opening <a> tag.
+
+==> you need to specify which page you want to link to using the href attribute.
+
+        syntax:
+        =======     
+                          <a href ="www.google.com">google.com</a>
+
+open links in anew window :
+===========================
+
+==> if you want open a new window, you csn use the target attribute on the opening <a> tag.
+
+==> that value of this attribute should be _ blank .
+
+
+      syntax:
+
+          <a href ="www.google.com" target ="-blank"> content creating </a>
