@@ -1,0 +1,70 @@
+                             Lists
+                        ==============
+==> Numbered list 
+
+==> Bullet list 
+
+==> Definition list 
+
+order list :
+===========
+
+==> The ordered list is created with the <ol> element.
+
+==> each item in the list is placed between an opening <li> tag.
+
+==> browser indent lists by default.
+     
+       syntax :
+        
+            <ol>
+               <li>
+                  Apple
+               </li>
+            </ol>
+
+Unordered list :
+================
+
+==> the Unordered list is created with <ul> tag .
+
+==> each element in the list is placed between an opening <li> tag.
+
+       syntax:
+          
+                 <ul>
+                    <li>
+                      Apple 
+                    </li>
+                    <li>
+                      banana
+                    </li>
+                 </ul>
+
+Definition list:
+=================
+
+==> the Definition list is created with the <dl> element and usually consists of a series of terms and their 
+
+    Definitions.
+
+Definition term:
+================
+
+==> this is used to contain the term being defined (the Definition term).
+
+Definition:
+===========
+
+==> this is used to contain the Definition.
+
+==> some times you might see a list where there are two terms used for the same Definition or two different
+
+    Definition for the same term.
+
+Nested lists :
+==============
+
+==> you can put a second list inside an <li> element to create a sub-list or nested list.
+
+==> browser display nested list indented further than parent list.
