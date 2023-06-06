@@ -1,0 +1,86 @@
+                                          Table 
+                                       ============       1300362603
+==> how to create a Tables.
+
+==> what kind of information suits tables.
+
+==> how to represent complex data in tables. 
+   
+==> there are several types of information that need to be displayed in a grid or table.
+
+     example:  sports results, stock reports and train timetable.
+
+==> when you representing information in a table, you need to think in terms of a grid made up of rows
+
+    and columns. 
+
+==> use the four key elements of creating tables.
+
+==> represent complex data using tables.
+
+==> add caption to tables.
+
+==> table element is used to create a table.
+
+==> the starts of each row using <tr> tag.
+
+==> it is followed by one or more <td> elements. (one ofr each cell in that row)
+
+==> each cell of a table is represented using a <td> element. (the td stands for table data).
+
+        example:
+
+                 <table>
+                    <tr>
+                        <td>
+                           Ashok
+                        </td>
+                        <td>
+                           Ash
+                        </td>
+                        <td>
+                           hari
+                        </td>
+                    </tr>
+                </table>
+
+==> th stands for table heading used just like the td element but its purpose is to represent the 
+
+    heading for either a colum or a row.
+
+==> even if a cell has no content, you should still use a <td> or <th> element represent the purpose of 
+
+    any empty cell otherwise the table has will not render correctly.
+
+==> using <th> elements for headings helps people who use screen readers, improves the ability for search 
+
+    engines to index you are pages.
+
+==> you can use the scope attribute on the <th> element to indicate whether it is a heading for a colum or row.
+
+==> it can takes the values : row to indicate the heading of the row or colum indicate a heading of a colum.
+
+spanning columns:
+=================
+
+==> sometimes you may need the entries in a table to stretch across more than one colum.
+
+==> the colspan attribute can be used on a <th> or <td> element that indicates how many columns that cell
+    
+    should run across.
+
+spanning rows:
+===============
+
+==> the rowspan attribute can be used i na <th> or <td> element to indicate how many rows a cell should
+
+    span down the table.
+
+long tables:
+=============
+  
+==> the headings of the table should sit inside the <thead> element.
+
+==> the <tbody> should sits inside the <tbody> element.
+
+==> the footer belongs to inside the <tfoot> element.
