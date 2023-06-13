@@ -1,0 +1,333 @@
+                                      Forms
+                                =================
+
+==> How to collect the information form visitors...
+
+==> different kind of forms..
+
+==> new html fom control..
+
+==> there are several types of form controls that tou can use to collect information form visitors to your site...
+
+==> there are 3 types of concepts...
+    
+      1. Adding text
+
+      2. making choices
+
+      3. submitting forms.
+
+ 1 . Adding text :
+=============
+   
+           text input  (single line)
+           ========================= : 
+                                  used for single line of text such as email address and names.
+
+           password input :
+           ================
+                       single line text box but it masks the characters entered...
+
+           Text area:
+           ===========
+                    for longer areas of text, such as messages and comments.
+
+2. Making choices :
+================
+
+    Radio buttons :
+      ===============
+            for use when a user multi select one of a number of options.
+
+    checkboxes:
+    ===========
+           when a user can select and unselect ne or more options.
+
+    Drop-down boxes:
+    ================
+             when a user must pick one of a number of options forms a list...
+
+3. Submitting Forms:
+====================
+         submitting buttons:  to submit data from your form to another webpages.
+
+    Image buttons:
+    ==============
+            similar to submit buttons but they allow you to use an image...
+
+Uploading files:
+================
+
+        ==> allow user to Upload files to a website...
+
+form structure:
+===============
+        ==> form control lives inside a <form></form> element. this element always carry the "action" attribute
+
+            and usually have a "method" and "id" attribute too...
+Action:
+=======
+       ==> every form element requires an action attribute. its value is the URL for the page on the server.
+
+Method:
+=======
+       ==> from can be used one of the two methods. (GET, POST)
+
+       syntax:
+
+               <form>
+                     action ="url of the website" method = "get or post"
+               </form>
+
+Text Input:
+===========
+            --> input element is used to create server different from controls. the value of type of attribute
+
+                determines what kind of input they will be creating....
+
+            --> when the type attribute has a value of text, it creates a single line of text input...
+
+            --> when users enter information into a from, the server needs to know which from control each 
+
+                 pice of data was entered into.....
+
+            --> you can use the maxlength attribute to limit the number of characters a user may enter into the
+                 
+                text field......
+                 
+
+        syntax:
+               
+                 <from>
+                        <p>username:
+                               <input type ="text" name ="username"  size="3" maxlength=""30/>
+                        </p>
+                 </from>
+
+password input:
+==============
+            --> input element is used to create server different from controls. the value of type of attribute
+
+                determines what kind of input they will be creating....
+
+            --> when the type attribute has a value of text, it creates a single line of text input...
+
+            --> when users enter information into a from, the server needs to know which from control each 
+
+                 pice of data was entered into.....
+
+            --> you can use the maxlength attribute to limit the number of characters a user may enter into the
+                 
+                text field......
+                 
+
+        syntax:
+               
+                 <from>
+                        <p>username:
+                               <input type ="text" name ="username"  size="3" maxlength=""30/>
+                               <input type ="text" name= "password" size ="15" maxlength ="30"/>
+                        </p>
+                 </from>
+
+Textarea:
+==========
+           --> the "Textarea" element is used to create a multi-line text input.
+
+           example:
+              
+                   <form action= "website url" >
+
+                      <Textarea>
+                         some information about the webpage
+                      </Textarea> 
+                   </form>
+
+Radio buttons:
+==============
+
+--> the "Radio" buttons allows users to pick just one of a number of options....
+
+--> "name" Attributes is sent to the server with the value of the options the user selects...
+
+--> the "Value" attribute indicates the value that is sent to the server for the selected options...
+
+--> "Checked" attribute can be used to indicates which value should be selected.....
+
+    syntax:
+
+        <form action="website url">
+           <p> website information .....</p>
+           <br/>
+           <input type="text" name="genre" value="rock" checked ="checked"/> Rock
+           <input type="text" name="genre" value="rock" checked ="checked"/> pop
+           <input type="text" name="genre" value="rock" checked ="checked"/> Jazz
+        </form>
+
+CheckBox:
+=========
+          --> checkbox is similar to the Radio buttons.....
+
+          example:
+
+                <form action = "website url">
+                  <p>some information</p>
+                  <input type= "checkbox" name="service" value="Itunes" 
+                             checked="checked"/> Itunes
+
+                 <input type="checkbox" name="service" value="spotify" 
+                           checked="checked"/> spotify
+                </form>
+
+Drop Down List Box:
+===================
+
+    ==> A drop down list box users to select one options from a drop down list....
+
+    ==> the name attribute indicates the name of the from control being sent to the server, along with the
+
+        value the user selected.....
+
+    syntax:
+
+                <from action="website url">
+
+                       <p> some information.....</p>
+                       <select>
+                          <options value="ipod"> ipod </options>
+                          <options value="iWatch"> Radio </options>
+                       </select>
+
+                </from>    
+
+file input box:
+================
+
+   ==> if you want to user upload a file (image, video,mp3) etc......
+
+   ==> the "type" of input creates a box that looks a text input followed by a browser button.
+
+
+   syntax:
+
+        <from action ="website url" method ="post">
+             <p> some information of the website</p>
+             <input type="file upload" name="song"/>
+        </from>
+
+submit button:
+===============
+
+   ==> submit button similar to the file input box....
+
+     syntax:
+
+            <form action="website url">
+                <input type="submit" name="subscribe" value="subscribe"/>
+            </form>
+
+Image:
+======
+         ==> if you want to some image for the button side.....
+
+         syntax:
+
+              <Input type="image" name="image" src="source of the url"/>
+
+button hidden controls:
+=======================
+
+==> "hidden" from control are not shown inside the button....
+
+   syntax:
+
+          <from action ="website url" method ="post">
+             <p> some information of the website</p>
+             <input type="hidden" name="song" value="lyrics"/>
+        </from>
+
+Labelling form controls:
+=========================
+
+     <label>
+         username
+     </label>
+     <br/>
+     <input type="radio" value="username"/>
+
+grouping from elements:
+=======================
+     --> you can group related from controls together inside the "fieldset" element.
+
+     --> "legend" element can come directly after the opening "fieldset" tag and contains a caption which helps
+
+          identify the purpose of that group of form controls....
+
+
+          syntax:
+
+             <fieldset>
+                    <legend> contact details:</legend>
+                    <label> email :</label>
+                    <input type="text" value ="username" name="username"/>
+                      <br/>
+                    <input type ="text" value ="password" name="password"/>
+             </fieldset>
+
+Form validation:
+=================
+
+==> html5 is introduced validation and leaving work to the browser.....
+
+      syntax:
+                     <form action ="website url" method="post">
+                        <label> username</label>
+                        <input type="text" value="username" name="username" required="required"/>
+                        <br/>
+                        <label>password:</label>
+                        <input type="password" value="password" name ="password" required="required"/>
+                     </form>
+
+Date input:   (type="date")
+=========== 
+  
+    ==> if you ask the user for a date, you can use the input element and give the type attribute a value
+         
+          of the date.
+    ==> this will create the date input in browser.
+
+       syntax:
+
+            <form action ="website url" method="post">
+                <label> date:</label>
+                <input type="date" name="date"/>
+                <input type="submit" value="submit"/>
+            </form>
+
+Email & URL input:
+==================
+
+    --> email and url input works similar to the data input.
+     
+       syntax:
+
+            <form action ="website url" method="post">
+                <label> date:</label>
+                <input type="mail" name="email"/>
+                <input type="url" name="website"/>
+                <input type="submit" value="submit"/>
+            </form>
+       
+Search Input:
+=============
+              ==> Search element works similar to the  email and url input...
+
+            syntax:
+
+            <form action ="website url" method="post">
+                <label> date:</label>
+                <input type="date" name="date"/>
+                <input type="submit" value="submit"/>
+                <input type="Search" value="Search"/>
+            </form>
+    

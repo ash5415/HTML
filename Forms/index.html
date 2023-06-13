@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1> Form handling</h1>
+
+      <from action="www.google.com">
+        <fieldset>
+            <legend>
+                your details:
+            </legend>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="type here" maxlength="100"/>
+            <br/>
+            <label>email:</label>
+            <input type="text" name="email" placeholder="type here" maxlength="100"/>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>
+                your review
+            </legend>
+            <p> 
+                <label>
+                    Did you here about this?
+                </label>
+                <select>
+                    <option value="google"> Google </option>
+                    <option value="facebook"> Facebook</option>
+                    <option value="twitter"> Twitter</option>
+                    <option value="other"> other</option>
+                </select>
+            </p>
+            <p> would you visit again </p>
+            <br/>
+            <label>
+                <input type="radio" name="rating" value="no"/>
+                No
+            </label>
+            <label> 
+            <input type="radio" name="rating" value="yes"/>
+                       yes
+            </label>
+            <!-- <label>
+                <input type="radio" name="rating" value="maybe"
+                  maybe
+            </label> -->
+        </fieldset>
+        <p>
+            <label>
+                comments:
+            </label>
+            <br/>
+            <textarea rows="4" cols="20">
+                
+            </textarea>
+            <br/>
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked"/>
+                sign me up for email updates
+            </label>
+            <br/>
+        </p>
+            <br/>
+            <button>submit</button>
+        
+
+      </from>
+</body>
+</html>
